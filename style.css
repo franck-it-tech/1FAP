@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+
+.my_navbar{
+  background-color: rgba(0, 0, 0, .55);
+  font-family: 'merriweater', serif;
+  box-shadow: 1px 1px 1px rgba(184, 181, 181, 0.54);
+  z-index: 99;
+
+}
+
+.my_navbar .nav-link{
+  border-bottom: 1px solid transparent;
+  transition: padding-bottom .4s ease-in-out, border-color .3s ease;
+}
+.my_navbar .nav-link:hover{
+  padding-bottom: 20px;
+  border-bottom-color: blue;
+}
+
+.banner{
+  margin: 0;
+  padding: 0;
+  background: url(/Images-site-Chassures/ImageBackgroud_1ere_page.jpg) center fixed no-repeat;
+  height: 800px;
+  background-size: cover;
+  
+}
+.banner .banner-desc{
+  font-size: 50px;
+  font-weight: 400;
+  color: white;
+  font-family: 'merriweater', serif;
+}
+
+.img{
+  width: 150px;
+  height: 150px;
+}
+
+.Presantion{
+  background-color: beige;
+  font-family: 'merriweater', serif;
+}
+
+.Pieces_disponibles{
+  background-color: beige;
+  font-family: 'merriweater', serif;
+}
+
+.order-form{
+  background-color: beige;
+  font-family: 'merriweater', serif;
+}
+
+.footer-content{
+  background-color: #333;
+  color: white;
+  height: 200px;
+  padding: 20px;
+  text-align: center;
+}
+  
+.footer-content p{
+  margin: 0;
+  font-size: 14px;
+}
+  
+.social-icons{
+  margin-top: 10px;
+}
+  
+.social-icons a{
+  margin: 0 15px;
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+}
+  
+.social-icons a:hover{
+  opacity: 0.7;
+}
+/* .footer d-flex justify-content-center gap-3:hover {
+  transform: scale(1.02);
+  transition: transform 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+} */
+.gradient-text {
+  background: linear-gradient(to right,orange, brown);
+}
+
+
+  
